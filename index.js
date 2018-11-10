@@ -17,6 +17,6 @@ function deepestChild() {
   let grandNode = document.querySelector('#grand-node');
   let currentNode = grand-node;
   while (currentNode.hasChildNodes()) {
-    currentNode.getFirstChil
+    currentNode = currentNode.firstChild;
   }
 }
